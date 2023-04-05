@@ -1,0 +1,183 @@
+body{
+    background-color: #010313;
+    color: #ffffff;
+}
+.new{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#learn{
+    font-size: 50px;
+}
+#best{
+    margin-top: 50px;
+}
+nav{
+    display: flex;
+    /* padding: 45px 8px 10px; */
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:20px 10px;
+    color: #ffffff;
+} 
+#log{
+    width: 70px;
+    padding: 8px 8px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    background: #010313;
+    color: #ffffff;
+     margin-left: 30px;
+     margin-right: 30px;
+}
+#html{
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    border: 1px blue;
+    color: #ffffff;
+    background: #2945FF;
+    font-size: 15px;
+    width: 130px;
+}
+.go{
+    text-align: center;
+}
+.class{
+    display: flex;
+    justify-content: center;
+}
+.be{
+    border: 1px solid gray;
+    text-align: center;
+    margin: 10px;
+    padding: 40px;
+}
+#bee{
+    display: flex;
+    justify-content: center;
+    background: #5A3FC41A;
+    margin-bottom: 0;
+    padding-top: 25px;
+}
+.class1{
+    display: flex;
+    justify-content: center;
+    background:  #5A3FC41A;
+    ;
+}
+.be1{
+    text-align: center;
+    margin: 10px;
+    padding: 40px;
+}
+#but-div{
+    background-color: #5A3FC41A;
+    display: flex;
+    justify-content: center;
+}
+#get{
+    width: 130px;
+    padding: 10px;
+    border: 1px blue;
+    background: #2945FF;
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+.let{
+    text-align: center;
+}
+.let2{
+    display: flex;
+    justify-content: center;
+} 
+.mat{
+    float: left;
+    padding: 30px 30px; 
+    /* display: flex;
+    justify-content: center; */
+}
+
+.bored{
+   text-align: center;
+}
+#glo{
+    width: 130px;
+    border: 1px blue;
+    font-size: 15px;
+    background: #2945FF;
+    color: #ffffff;
+}
+#email{
+    font-size: 15px;
+    width: 300px;
+    padding: 10px;
+}
+@media screen and (max-width: 600px) {
+    #learn{
+        font-size: 25px;
+    }
+    p{
+        font-size: 14px;
+    }
+    #email{
+        font-size: 15px;
+        width: 200px;
+    }
+    #btn{
+        font-size: 14px;
+    }
+    #best{
+        margin-top: 10px;
+    }
+    .class{
+        flex-direction: column;
+    }
+    .class1{
+        flex-direction: column;
+    }
+    .let2{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:1200px) {
+    #email{
+        font-size: 15px;
+    }
+    p{
+        font-size: 20px;
+    }
+    #best{
+        margin-top: 10px;
+    }
+    .class{
+        flex-direction: column;
+    }
+    .class1{
+        flex-direction: column;
+    }
+    .let2{
+        flex-direction: column;
+        margin-left: 160px;
+    }
+    #girl{
+        margin-left: 25px;
+    }
+    #we{
+        text-align: center;
+        margin-right: 160px;
+    }
+    #are{
+        margin-left: 180px;
+    }
+}
